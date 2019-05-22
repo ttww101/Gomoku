@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC66A381228963D800380922 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC66A380228963D800380922 /* AppDelegate.m */; };
+		DC66A384228963D800380922 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC66A383228963D800380922 /* ViewController.m */; };
+		DC66A387228963D800380922 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC66A385228963D800380922 /* Main.storyboard */; };
+		DC66A389228963DA00380922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC66A388228963DA00380922 /* Assets.xcassets */; };
+		DC66A38C228963DA00380922 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC66A38A228963DA00380922 /* LaunchScreen.storyboard */; };
+		DC66A38F228963DA00380922 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC66A38E228963DA00380922 /* main.m */; };
+		DC66A39A2289648500380922 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = DC66A3962289648500380922 /* MyScene.m */; };
+		DC66A39B2289648500380922 /* RestartView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC66A3972289648500380922 /* RestartView.m */; };
+		DC66A39E2289649000380922 /* ChessButtonNode.m in Sources */ = {isa = PBXBuildFile; fileRef = DC66A39C2289649000380922 /* ChessButtonNode.m */; };
+		DC66A3A22289656200380922 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC66A3A12289656200380922 /* CoreGraphics.framework */; };
+		DC66A3A42289656800380922 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC66A3A32289656800380922 /* UIKit.framework */; };
+		DC66A3A62289656F00380922 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC66A3A52289656F00380922 /* SpriteKit.framework */; };
+		DC66A3A82289657500380922 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC66A3A72289657500380922 /* Foundation.framework */; };
+		DC7122C6229531EC009489E6 /* chessboard.png in Resources */ = {isa = PBXBuildFile; fileRef = DC7122C5229531EC009489E6 /* chessboard.png */; };
+		DC7122C922953223009489E6 /* stone_white.png in Resources */ = {isa = PBXBuildFile; fileRef = DC7122C722953223009489E6 /* stone_white.png */; };
+		DC7122CA22953223009489E6 /* stone_black.png in Resources */ = {isa = PBXBuildFile; fileRef = DC7122C822953223009489E6 /* stone_black.png */; };
+		DC7122EB229539CB009489E6 /* JumpViewControllerP.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7122CE229539CB009489E6 /* JumpViewControllerP.m */; };
+		DC7122EC229539CB009489E6 /* LoudMySceneE.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7122D0229539CB009489E6 /* LoudMySceneE.m */; };
+		DC7122ED229539CB009489E6 /* RaiseChessButtonNodex.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7122D3229539CB009489E6 /* RaiseChessButtonNodex.m */; };
+		DC7122EE229539CB009489E6 /* RunAppDelegaten.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7122D5229539CB009489E6 /* RunAppDelegaten.m */; };
+		DC7122EF229539CB009489E6 /* ScreamUIPickerViewB.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7122D7229539CB009489E6 /* ScreamUIPickerViewB.m */; };
+		DC7122F0229539CB009489E6 /* SingRestartViewr.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7122D9229539CB009489E6 /* SingRestartViewr.m */; };
+		DC7122F1229539CB009489E6 /* SleepUIWebViewU.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7122DB229539CB009489E6 /* SleepUIWebViewU.m */; };
+		DC7122F2229539CB009489E6 /* UIAlertView+Jump.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7122DE229539CB009489E6 /* UIAlertView+Jump.m */; };
+		DC7122F3229539CB009489E6 /* UILabel+Loud.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7122E0229539CB009489E6 /* UILabel+Loud.m */; };
+		DC7122F4229539CB009489E6 /* UIPickerView+Raise.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7122E2229539CB009489E6 /* UIPickerView+Raise.m */; };
+		DC7122F5229539CB009489E6 /* UITabBar+RunSleep.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7122E4229539CB009489E6 /* UITabBar+RunSleep.m */; };
+		DC7122F6229539CB009489E6 /* UIViewController+RaiseScream.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7122E6229539CB009489E6 /* UIViewController+RaiseScream.m */; };
+		DC7122F7229539CB009489E6 /* UIViewController+Sing.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7122E8229539CB009489E6 /* UIViewController+Sing.m */; };
+		DC7122F8229539CB009489E6 /* UIWebView+Run.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7122EA229539CB009489E6 /* UIWebView+Run.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC66A37C228963D800380922 /* 單機五子棋.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "單機五子棋.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC66A37F228963D800380922 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC66A380228963D800380922 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC66A382228963D800380922 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DC66A383228963D800380922 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DC66A386228963D800380922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC66A388228963DA00380922 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC66A38B228963DA00380922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC66A38D228963DA00380922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC66A38E228963DA00380922 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC66A3952289647300380922 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		DC66A3962289648500380922 /* MyScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		DC66A3972289648500380922 /* RestartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestartView.m; sourceTree = "<group>"; };
+		DC66A3982289648500380922 /* MyScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		DC66A3992289648500380922 /* RestartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestartView.h; sourceTree = "<group>"; };
+		DC66A39C2289649000380922 /* ChessButtonNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessButtonNode.m; sourceTree = "<group>"; };
+		DC66A39D2289649000380922 /* ChessButtonNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessButtonNode.h; sourceTree = "<group>"; };
+		DC66A39F228964A800380922 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		DC66A3A12289656200380922 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DC66A3A32289656800380922 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DC66A3A52289656F00380922 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		DC66A3A72289657500380922 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DC7122C5229531EC009489E6 /* chessboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chessboard.png; sourceTree = "<group>"; };
+		DC7122C722953223009489E6 /* stone_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stone_white.png; sourceTree = "<group>"; };
+		DC7122C822953223009489E6 /* stone_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stone_black.png; sourceTree = "<group>"; };
+		DC7122CD229539CB009489E6 /* JumpViewControllerP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JumpViewControllerP.h; sourceTree = "<group>"; };
+		DC7122CE229539CB009489E6 /* JumpViewControllerP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JumpViewControllerP.m; sourceTree = "<group>"; };
+		DC7122CF229539CB009489E6 /* LoudMySceneE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoudMySceneE.h; sourceTree = "<group>"; };
+		DC7122D0229539CB009489E6 /* LoudMySceneE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoudMySceneE.m; sourceTree = "<group>"; };
+		DC7122D1229539CB009489E6 /* NewClassCallHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewClassCallHeader.h; sourceTree = "<group>"; };
+		DC7122D2229539CB009489E6 /* RaiseChessButtonNodex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaiseChessButtonNodex.h; sourceTree = "<group>"; };
+		DC7122D3229539CB009489E6 /* RaiseChessButtonNodex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RaiseChessButtonNodex.m; sourceTree = "<group>"; };
+		DC7122D4229539CB009489E6 /* RunAppDelegaten.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunAppDelegaten.h; sourceTree = "<group>"; };
+		DC7122D5229539CB009489E6 /* RunAppDelegaten.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunAppDelegaten.m; sourceTree = "<group>"; };
+		DC7122D6229539CB009489E6 /* ScreamUIPickerViewB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreamUIPickerViewB.h; sourceTree = "<group>"; };
+		DC7122D7229539CB009489E6 /* ScreamUIPickerViewB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreamUIPickerViewB.m; sourceTree = "<group>"; };
+		DC7122D8229539CB009489E6 /* SingRestartViewr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingRestartViewr.h; sourceTree = "<group>"; };
+		DC7122D9229539CB009489E6 /* SingRestartViewr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingRestartViewr.m; sourceTree = "<group>"; };
+		DC7122DA229539CB009489E6 /* SleepUIWebViewU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SleepUIWebViewU.h; sourceTree = "<group>"; };
+		DC7122DB229539CB009489E6 /* SleepUIWebViewU.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SleepUIWebViewU.m; sourceTree = "<group>"; };
+		DC7122DC229539CB009489E6 /* ScreamCallHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreamCallHeader.h; sourceTree = "<group>"; };
+		DC7122DD229539CB009489E6 /* UIAlertView+Jump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Jump.h"; sourceTree = "<group>"; };
+		DC7122DE229539CB009489E6 /* UIAlertView+Jump.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Jump.m"; sourceTree = "<group>"; };
+		DC7122DF229539CB009489E6 /* UILabel+Loud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Loud.h"; sourceTree = "<group>"; };
+		DC7122E0229539CB009489E6 /* UILabel+Loud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Loud.m"; sourceTree = "<group>"; };
+		DC7122E1229539CB009489E6 /* UIPickerView+Raise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPickerView+Raise.h"; sourceTree = "<group>"; };
+		DC7122E2229539CB009489E6 /* UIPickerView+Raise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPickerView+Raise.m"; sourceTree = "<group>"; };
+		DC7122E3229539CB009489E6 /* UITabBar+RunSleep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+RunSleep.h"; sourceTree = "<group>"; };
+		DC7122E4229539CB009489E6 /* UITabBar+RunSleep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+RunSleep.m"; sourceTree = "<group>"; };
+		DC7122E5229539CB009489E6 /* UIViewController+RaiseScream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RaiseScream.h"; sourceTree = "<group>"; };
+		DC7122E6229539CB009489E6 /* UIViewController+RaiseScream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RaiseScream.m"; sourceTree = "<group>"; };
+		DC7122E7229539CB009489E6 /* UIViewController+Sing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Sing.h"; sourceTree = "<group>"; };
+		DC7122E8229539CB009489E6 /* UIViewController+Sing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Sing.m"; sourceTree = "<group>"; };
+		DC7122E9229539CB009489E6 /* UIWebView+Run.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+Run.h"; sourceTree = "<group>"; };
+		DC7122EA229539CB009489E6 /* UIWebView+Run.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+Run.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC66A379228963D800380922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC66A3A82289657500380922 /* Foundation.framework in Frameworks */,
+				DC66A3A62289656F00380922 /* SpriteKit.framework in Frameworks */,
+				DC66A3A42289656800380922 /* UIKit.framework in Frameworks */,
+				DC66A3A22289656200380922 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC66A373228963D800380922 = {
+			isa = PBXGroup;
+			children = (
+				DC7122CB229539CB009489E6 /* DragMeToTheProject */,
+				DC66A37E228963D800380922 /* 單機五子棋 */,
+				DC66A37D228963D800380922 /* Products */,
+				DC66A3A02289656200380922 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC66A37D228963D800380922 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC66A37C228963D800380922 /* 單機五子棋.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC66A37E228963D800380922 /* 單機五子棋 */ = {
+			isa = PBXGroup;
+			children = (
+				DC7122C822953223009489E6 /* stone_black.png */,
+				DC7122C722953223009489E6 /* stone_white.png */,
+				DC7122C5229531EC009489E6 /* chessboard.png */,
+				DC66A37F228963D800380922 /* AppDelegate.h */,
+				DC66A380228963D800380922 /* AppDelegate.m */,
+				DC66A3952289647300380922 /* Header.h */,
+				DC66A382228963D800380922 /* ViewController.h */,
+				DC66A383228963D800380922 /* ViewController.m */,
+				DC66A39F228964A800380922 /* PrefixHeader.pch */,
+				DC66A39D2289649000380922 /* ChessButtonNode.h */,
+				DC66A39C2289649000380922 /* ChessButtonNode.m */,
+				DC66A3982289648500380922 /* MyScene.h */,
+				DC66A3962289648500380922 /* MyScene.m */,
+				DC66A3992289648500380922 /* RestartView.h */,
+				DC66A3972289648500380922 /* RestartView.m */,
+				DC66A385228963D800380922 /* Main.storyboard */,
+				DC66A388228963DA00380922 /* Assets.xcassets */,
+				DC66A38A228963DA00380922 /* LaunchScreen.storyboard */,
+				DC66A38D228963DA00380922 /* Info.plist */,
+				DC66A38E228963DA00380922 /* main.m */,
+			);
+			path = "單機五子棋";
+			sourceTree = "<group>";
+		};
+		DC66A3A02289656200380922 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC66A3A72289657500380922 /* Foundation.framework */,
+				DC66A3A52289656F00380922 /* SpriteKit.framework */,
+				DC66A3A32289656800380922 /* UIKit.framework */,
+				DC66A3A12289656200380922 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC7122CB229539CB009489E6 /* DragMeToTheProject */ = {
+			isa = PBXGroup;
+			children = (
+				DC7122CC229539CB009489E6 /* NewClass */,
+				DC7122DC229539CB009489E6 /* ScreamCallHeader.h */,
+				DC7122DD229539CB009489E6 /* UIAlertView+Jump.h */,
+				DC7122DE229539CB009489E6 /* UIAlertView+Jump.m */,
+				DC7122DF229539CB009489E6 /* UILabel+Loud.h */,
+				DC7122E0229539CB009489E6 /* UILabel+Loud.m */,
+				DC7122E1229539CB009489E6 /* UIPickerView+Raise.h */,
+				DC7122E2229539CB009489E6 /* UIPickerView+Raise.m */,
+				DC7122E3229539CB009489E6 /* UITabBar+RunSleep.h */,
+				DC7122E4229539CB009489E6 /* UITabBar+RunSleep.m */,
+				DC7122E5229539CB009489E6 /* UIViewController+RaiseScream.h */,
+				DC7122E6229539CB009489E6 /* UIViewController+RaiseScream.m */,
+				DC7122E7229539CB009489E6 /* UIViewController+Sing.h */,
+				DC7122E8229539CB009489E6 /* UIViewController+Sing.m */,
+				DC7122E9229539CB009489E6 /* UIWebView+Run.h */,
+				DC7122EA229539CB009489E6 /* UIWebView+Run.m */,
+			);
+			name = DragMeToTheProject;
+			path = "單機五子棋/DragMeToTheProject";
+			sourceTree = "<group>";
+		};
+		DC7122CC229539CB009489E6 /* NewClass */ = {
+			isa = PBXGroup;
+			children = (
+				DC7122CD229539CB009489E6 /* JumpViewControllerP.h */,
+				DC7122CE229539CB009489E6 /* JumpViewControllerP.m */,
+				DC7122CF229539CB009489E6 /* LoudMySceneE.h */,
+				DC7122D0229539CB009489E6 /* LoudMySceneE.m */,
+				DC7122D1229539CB009489E6 /* NewClassCallHeader.h */,
+				DC7122D2229539CB009489E6 /* RaiseChessButtonNodex.h */,
+				DC7122D3229539CB009489E6 /* RaiseChessButtonNodex.m */,
+				DC7122D4229539CB009489E6 /* RunAppDelegaten.h */,
+				DC7122D5229539CB009489E6 /* RunAppDelegaten.m */,
+				DC7122D6229539CB009489E6 /* ScreamUIPickerViewB.h */,
+				DC7122D7229539CB009489E6 /* ScreamUIPickerViewB.m */,
+				DC7122D8229539CB009489E6 /* SingRestartViewr.h */,
+				DC7122D9229539CB009489E6 /* SingRestartViewr.m */,
+				DC7122DA229539CB009489E6 /* SleepUIWebViewU.h */,
+				DC7122DB229539CB009489E6 /* SleepUIWebViewU.m */,
+			);
+			path = NewClass;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC66A37B228963D800380922 /* 單機五子棋 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC66A392228963DA00380922 /* Build configuration list for PBXNativeTarget "單機五子棋" */;
+			buildPhases = (
+				DC66A378228963D800380922 /* Sources */,
+				DC66A379228963D800380922 /* Frameworks */,
+				DC66A37A228963D800380922 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "單機五子棋";
+			productName = "單機五子棋";
+			productReference = DC66A37C228963D800380922 /* 單機五子棋.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC66A374228963D800380922 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = xin;
+				TargetAttributes = {
+					DC66A37B228963D800380922 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = DC66A377228963D800380922 /* Build configuration list for PBXProject "單機五子棋" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC66A373228963D800380922;
+			productRefGroup = DC66A37D228963D800380922 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC66A37B228963D800380922 /* 單機五子棋 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC66A37A228963D800380922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC66A38C228963DA00380922 /* LaunchScreen.storyboard in Resources */,
+				DC7122C6229531EC009489E6 /* chessboard.png in Resources */,
+				DC66A389228963DA00380922 /* Assets.xcassets in Resources */,
+				DC7122CA22953223009489E6 /* stone_black.png in Resources */,
+				DC66A387228963D800380922 /* Main.storyboard in Resources */,
+				DC7122C922953223009489E6 /* stone_white.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC66A378228963D800380922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7122F0229539CB009489E6 /* SingRestartViewr.m in Sources */,
+				DC7122F8229539CB009489E6 /* UIWebView+Run.m in Sources */,
+				DC66A39A2289648500380922 /* MyScene.m in Sources */,
+				DC7122F1229539CB009489E6 /* SleepUIWebViewU.m in Sources */,
+				DC7122EF229539CB009489E6 /* ScreamUIPickerViewB.m in Sources */,
+				DC66A384228963D800380922 /* ViewController.m in Sources */,
+				DC7122F5229539CB009489E6 /* UITabBar+RunSleep.m in Sources */,
+				DC7122F6229539CB009489E6 /* UIViewController+RaiseScream.m in Sources */,
+				DC7122F4229539CB009489E6 /* UIPickerView+Raise.m in Sources */,
+				DC7122F2229539CB009489E6 /* UIAlertView+Jump.m in Sources */,
+				DC66A39E2289649000380922 /* ChessButtonNode.m in Sources */,
+				DC66A38F228963DA00380922 /* main.m in Sources */,
+				DC7122EB229539CB009489E6 /* JumpViewControllerP.m in Sources */,
+				DC66A39B2289648500380922 /* RestartView.m in Sources */,
+				DC7122EC229539CB009489E6 /* LoudMySceneE.m in Sources */,
+				DC7122F7229539CB009489E6 /* UIViewController+Sing.m in Sources */,
+				DC7122ED229539CB009489E6 /* RaiseChessButtonNodex.m in Sources */,
+				DC7122F3229539CB009489E6 /* UILabel+Loud.m in Sources */,
+				DC66A381228963D800380922 /* AppDelegate.m in Sources */,
+				DC7122EE229539CB009489E6 /* RunAppDelegaten.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC66A385228963D800380922 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC66A386228963D800380922 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC66A38A228963DA00380922 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC66A38B228963DA00380922 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC66A390228963DA00380922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC66A391228963DA00380922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC66A393228963DA00380922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = BCU2BHB98M;
+				INFOPLIST_FILE = "單機五子棋/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xin.fiveinrow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Dev - Wildcard";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		DC66A394228963DA00380922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = SZF7K8RQKN;
+				INFOPLIST_FILE = "單機五子棋/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xin.fiveinrow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Distribution - fiveinrow";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC66A377228963D800380922 /* Build configuration list for PBXProject "單機五子棋" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC66A390228963DA00380922 /* Debug */,
+				DC66A391228963DA00380922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC66A392228963DA00380922 /* Build configuration list for PBXNativeTarget "單機五子棋" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC66A393228963DA00380922 /* Debug */,
+				DC66A394228963DA00380922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC66A374228963D800380922 /* Project object */;
+}
